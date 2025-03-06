@@ -5,8 +5,6 @@
 .home_page {
   display: flex;
   flex-direction: column;
-
-  padding-bottom: 60px;
 }
 
 .white_svg {
@@ -115,7 +113,7 @@
 
 .container .next_prev_box img {
   position: absolute;
-  top: 50%;
+  top: 48%;
   cursor: pointer;
 }
 
@@ -830,6 +828,7 @@
   justify-content: center;
 
   background-image: url("../images/icons/event_bg.png");
+  background-size: cover;
 }
 
 .event_frame .container {
